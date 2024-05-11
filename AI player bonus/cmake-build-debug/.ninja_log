@@ -1,0 +1,8 @@
+# ninja log v5
+5	858	7247162012081970	build.ninja	ae346ce5476773ce
+20	3053	7245272183582374	CMakeFiles/AI_player_bonus.dir/XO_Player.cpp.obj	5d820e731a88a11
+1	3411	7245272187312486	CMakeFiles/AI_player_bonus.dir/XO_ComputerPlayer.cpp.obj	da7dac03b724293e
+7	3609	7245272188010515	CMakeFiles/AI_player_bonus.dir/XO_Board.cpp.obj	a92d0fdd27e4c51
+3058	4936	7245272202671299	CMakeFiles/AI_player_bonus.dir/XO_GameManager.cpp.obj	5d28fecc6c1edcca
+5192	5593	7245272209303580	AI_player_bonus.exe	bdaa0389640b7c77
+3411	5191	7245272205184573	CMakeFiles/AI_player_bonus.dir/main.cpp.obj	cc5f862a9c878e49

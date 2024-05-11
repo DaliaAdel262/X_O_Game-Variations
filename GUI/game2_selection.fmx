@@ -1,0 +1,482 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 481
+  ClientWidth = 656
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button5: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 440.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'It'#39's your turn, player'
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 585.000000000000000000
+    Position.Y = 160.000000000000000000
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    TabOrder = 7
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 440.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 48.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'winner:'
+    TabOrder = 8
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 496.000000000000000000
+    Position.Y = 232.000000000000000000
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    TabOrder = 9
+  end
+  object Button1: TButton
+    Position.X = 15.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 75
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button2: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 74
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    Position.X = 129.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 72
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    Position.X = 186.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 70
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    Position.X = 300.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 68
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    Position.X = 357.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 64
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    Position.X = 15.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 73
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button10: TButton
+    Position.X = 129.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 71
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button11: TButton
+    Position.X = 186.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 69
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button12: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 66
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button13: TButton
+    Position.X = 300.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 62
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button14: TButton
+    Position.X = 357.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 58
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button15: TButton
+    Position.X = 15.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button16: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 67
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button17: TButton
+    Position.X = 129.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 65
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button18: TButton
+    Position.X = 186.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 63
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button19: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 60
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button20: TButton
+    Position.X = 300.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 56
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button21: TButton
+    Position.X = 357.000000000000000000
+    Position.Y = 194.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 52
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button22: TButton
+    Position.X = 15.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button23: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 61
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button24: TButton
+    Position.X = 129.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 59
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button25: TButton
+    Position.X = 186.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 57
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button26: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 54
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button27: TButton
+    Position.X = 300.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 50
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button28: TButton
+    Position.X = 357.000000000000000000
+    Position.Y = 251.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 46
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button29: TButton
+    Position.X = 15.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button30: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 55
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button31: TButton
+    Position.X = 129.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 53
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button32: TButton
+    Position.X = 186.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 51
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button33: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 48
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button34: TButton
+    Position.X = 300.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 44
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button35: TButton
+    Position.X = 357.000000000000000000
+    Position.Y = 308.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 42
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button36: TButton
+    Position.X = 15.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button37: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 49
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button38: TButton
+    Position.X = 129.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 47
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button39: TButton
+    Position.X = 186.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 45
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button40: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 43
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button41: TButton
+    Position.X = 300.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 41
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button42: TButton
+    Position.X = 357.000000000000000000
+    Position.Y = 365.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 40
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button43: TButton
+    StyledSettings = [Family, Style]
+    Position.X = 528.000000000000000000
+    Position.Y = 432.000000000000000000
+    TabOrder = 13
+    Text = 'Exit'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = Button43Click
+  end
+end

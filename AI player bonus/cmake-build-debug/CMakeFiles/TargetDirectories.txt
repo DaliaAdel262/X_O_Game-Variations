@@ -1,0 +1,3 @@
+C:/Users/DELL/Desktop/github_for_ass3/Assignment-3---OOP/AI player bonus/cmake-build-debug/CMakeFiles/AI_player_bonus.dir
+C:/Users/DELL/Desktop/github_for_ass3/Assignment-3---OOP/AI player bonus/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DELL/Desktop/github_for_ass3/Assignment-3---OOP/AI player bonus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

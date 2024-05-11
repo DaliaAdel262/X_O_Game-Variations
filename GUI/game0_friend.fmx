@@ -1,0 +1,152 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 344.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'It'#39's your turn, player'
+    TabOrder = 0
+    object Label3: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 144.000000000000000000
+      Position.Y = 8.000000000000000000
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Trimming = None
+      TabOrder = 3
+    end
+  end
+  object Button1: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button2: TButton
+    Position.X = 137.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button5: TButton
+    Position.X = 137.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    Position.X = 137.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 344.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'winner:'
+    TabOrder = 11
+  end
+  object Label6: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 432.000000000000000000
+    Position.Y = 248.000000000000000000
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Trimming = None
+    TabOrder = 12
+  end
+  object Button10: TButton
+    StyledSettings = [Family, Style]
+    Position.X = 528.000000000000000000
+    Position.Y = 432.000000000000000000
+    TabOrder = 13
+    Text = 'Exit'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = Button10Click
+  end
+end
